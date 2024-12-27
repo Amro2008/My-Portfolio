@@ -1,0 +1,295 @@
+#home{
+    height: 60em;
+    background-image: url('w1.jpg'), linear-gradient(lightgray , black);
+    background-repeat: no-repeat;
+    size: 50%;
+    background-position: center;
+}
+
+.logo{
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
+    margin: auto;
+    background-color: white;
+    animation: dropFromAbove 1s ease-out;
+
+
+}
+#logo{
+    width: 80%;
+}
+.logo:hover {
+    transform: scale(0.9);
+
+}
+@keyframes dropFromAbove {
+    0% {
+        transform: translateY(-200px); 
+        opacity: 0; 
+    }
+    100% {
+        transform: translateY(0);
+        opacity: 1; 
+    }
+}
+*{
+    margin: 0;
+    padding: 0;
+    }
+nav ul{
+    background-image:linear-gradient(black, lightgray);
+    border-style: solid;
+    border-color: rgb(255, 255, 255);
+    padding: 20px;
+
+
+}
+nav ul li{
+     list-style: none;
+     display: inline;
+     margin-left: 50px;
+     margin-right: 50px;
+
+}
+nav ul li a{
+    text-decoration: none;
+    color:rgb(0, 0, 0);
+    font-size: 20px;
+    display: inline-block;
+    transition: transform 0.3s ease, background-color 0.3s ease, color 0.3s ease;
+
+}
+nav ul li a:hover {
+    transform: scale(1.1);
+    background-color: black;
+    color: white;
+}
+
+.name{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#name{
+    font-size: 50px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-decoration: underline;
+    color: white;
+    position: relative;
+    left: -100%;
+    animation: slideIn 1.5s forwards;
+
+}
+@keyframes slideIn{
+    from {left: -100%;}
+    to {left:0%;  }
+}
+.p1{
+    position: absolute;
+    left: 400px;
+    height: 300px;
+    width: 200px;
+}
+#p1{
+    text-align: center;
+    color: white;
+    font-size: 20px;
+}
+
+.p2{
+    position: absolute;
+    left: 400px;
+    top: 700px;
+    height: 300px;
+    width: 200px;
+
+}
+#p2{
+    font-size: 20px;
+    
+}
+
+.im1{
+    position: absolute;
+    height: 200px;
+    width: 150px;
+    display: flex;
+    top: 730px;
+    left: 650px;
+}
+
+
+#skills{
+    height: 80em;
+    background-image:url(eee.jpg), linear-gradient(black, lightgray , black);
+    background-repeat: no-repeat;
+    size: 100%;
+    background-position: center;
+    top: 30px;
+}
+#sk1{
+    font-size: 50px;
+    font-family: cursive;
+    text-decoration: underline;
+    text-shadow: -2px 2px black;
+    text-align: center;
+    color: white;
+
+}
+.sk1{
+    position: absolute;
+    top: 1200px;
+  right: 400px;
+}
+.sk2{
+    position: absolute;
+    top:1400px ;
+    height:150px;
+    width: 170px;
+    right: 540px;
+}
+
+#pr1{
+    border: 2px;
+    border-radius: 100px;
+    border-color: black;
+    border-style: double;
+
+
+}
+#pr2{
+    border: 2px;
+    border-radius: 100px;
+    border-color: black;
+    border-style: double;
+
+
+}
+.example{
+    position: absolute;
+    top: 1469px;
+    right: 340px;
+}
+
+.sk3{
+    position: absolute;
+    top:1800px ;
+    height:150px;
+    width: 170px;
+    right: 540px;
+}
+
+#sk3{
+    font-family: cursive;
+}
+.sk4{
+    position: absolute;
+    top:1639px ;
+    height:150px;
+    width: 200px;
+    right: 260px;
+
+}
+#sk4{
+    font-family: cursive;
+}
+
+#hoppies{
+    height: 60em;
+    background-image: url('idont.jpg'), linear-gradient(lightgray , black);
+    background-repeat: no-repeat;
+    size: 50%;
+    background-position: center;
+
+}
+.sk5{
+    position: absolute;
+    top:2500px ;
+    height:400px;
+    width: 250px;
+    right: 560px;
+
+}
+#sk5{
+    color: white;
+    font-size: 20px;
+    font-family: cursive;
+}
+
+.sk6{
+    position: absolute;
+    top:2500px ;
+    height:400px;
+    width: 250px;
+    right: 230px;
+}
+#sk6{
+    color: white;
+    font-size: 20px;
+    font-family: cursive;
+}
+
+.sk7{
+    position: absolute;
+    top:2800px ;
+    height:400px;
+    width: 250px;
+    right: 580px;
+
+}
+#sk7{
+    color: white;
+    font-size: 20px;
+    font-family: cursive;
+    
+}
+.sk8{
+    position: absolute;
+    top:2900px ;
+    height:400px;
+    width: 250px;
+    right: 230px;
+
+}
+#sk8{
+    color: white;
+    font-size: 20px;
+    font-family: cursive;
+
+}
+
+#futur{
+    background-color: gray;
+    height: 70em;
+    background-image: url('bruh.jpg');
+    background-repeat: no-repeat;
+    size: 50%;
+    background-position: center;
+
+}
+.sk9{
+    position: absolute;
+    left: 300px;
+    height: 300px;
+    width: 400px;
+    top: 3800px;
+
+}
+
+#preloader{
+    background:white url(Hourglass.gif) no-repeat center;
+    background-size: 40%;
+    height: 100%;
+    width: 100%;
+    position: fixed;
+    z-index: 100;
+}
+html{
+    scroll-behavior: smooth;
+
+}
